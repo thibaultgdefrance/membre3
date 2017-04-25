@@ -29,7 +29,7 @@ function bdd_delete(string $query, array $params= [ ]):int{
 }
 
 
-function bdd_insert(string $query, array $params= [ ]):int{
+function bdd_insert(string $query, array $params= [ ]){
     require 'pdo.php';
 
     if ($params){
